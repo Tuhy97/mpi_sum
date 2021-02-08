@@ -18,10 +18,10 @@
 # include <stdlib.h>
 # include <string.h>
 # include <unistd.h>
-# define KB (1024)
-# define MB (1024 * KB)
-# define GB (1024 * MB)
-
+# define KB (1) //原为1024
+# define MB (1 * KB)
+# define GB (1 * MB)
+//可能太大，我们直接把1024变成1.。。
 int main(int argc, char *argv[])
 {
         char *p;
