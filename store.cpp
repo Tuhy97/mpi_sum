@@ -7,7 +7,7 @@
                         
 int main() {
      int i;
-     int gb = 1; //以GB为单位分配内存大小，我们的服务器大小是8G，这里我分配8
+     int gb = 8; //以GB为单位分配内存大小，我们的服务器大小是8G，这里我分配8
                         
      for (i = 0; i < ((unsigned long)gb<<30)/PAGE_SZ ; ++i) {
          void *m = malloc(PAGE_SZ);
