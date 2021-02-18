@@ -39,8 +39,8 @@ int main()
  
 	s.generate_nums();		//generate 1 million nums
 	s.save_nums("nums");	//save to file "nums"
-	s.sort_nums();			//sort
-	s.save_nums("nums2");	//save to file "nums2"
+	//s.sort_nums();			//sort
+	//s.save_nums("nums2");	//save to file "nums2"
  
 	return 0;
 }
