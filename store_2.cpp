@@ -41,7 +41,7 @@ int main()
 	s.save_nums("nums");	//save to file "nums"
 	//s.sort_nums();			//sort
 	//s.save_nums("nums2");	//save to file "nums2"
- 
+        getchar();
 	return 0;
 }
 //https://blog.csdn.net/timberwolf_2012/article/details/39398505?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-16.baidujs&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-16.baidujs
