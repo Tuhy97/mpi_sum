@@ -30,7 +30,7 @@ public:
 		sort(nums_.begin(), nums_.end());
 	}
 private:
-	vector<int> nums_ = vector<int>(1000000);
+	vector<int> nums_ = vector<int>(1000000000);
 };
  
 int main()
